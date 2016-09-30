@@ -1,0 +1,10 @@
+function setup() {
+  createCanvas(1000,1000);
+  background(255);
+}
+
+function draw() {
+    for(var i=1; i<990;i=i+10){
+  line(500,10,i,990);
+  }
+}
