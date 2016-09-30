@@ -1,0 +1,12 @@
+function setup() {
+  createCanvas(1000, 1000);
+  background(255);
+  noFill();
+}
+
+function draw() {
+  for (var i = 1; i < 1000; i = i + 20) {
+    ellipseMode(CENTER);
+    ellipse(500, 500, i, i);
+  }
+}
